@@ -1,0 +1,57 @@
+.border-style {
+    min-height: 80vh;
+    min-width: 70vh;
+    background-color: #FAFF93;
+    position: fixed;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.notepad-style {
+    max-height: 8vh;
+    height: 8vh;
+    background-color: #857446;
+    font-size: 2rem;
+    font-family: georgia;
+}
+
+    /*.lines-style {
+        border: 0;
+        border-bottom: 1px solid red;
+        outline: 0;
+        min-width: 100vh;
+        background-color: #FAFF93;
+        padding-top: 15px;
+        font-family: "lucida console";
+        font-size: 1.5rem;
+    }*/
+
+.input-style {
+    border-bottom: 1px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 95vh;
+    min-width: 95vh;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.checkbox-style {
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.writing-style {
+    font-family: monaco;
+    font-size: 1.5rem;
+    margin-left: 25px;
+    background: transparent;
+    border: none;
+}
+
+
+input[type=checkbox]:checked {
+  text-decoration: line-through;
+}
+
